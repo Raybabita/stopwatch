@@ -1,0 +1,119 @@
+/* Write CSS here */
+
+.app-container {
+  background-size: cover;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+
+.watch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .watch-container {
+    align-items: flex-start;
+    margin-left: 160px;
+  }
+}
+
+.stopwatch-heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #333333;
+}
+
+@media screen and (min-width: 992px) {
+  .stopwatch-heading {
+    font-size: 55px;
+  }
+}
+
+.watch-counting-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+
+  width: 250px;
+  border-radius: 12px;
+}
+.stopwatch {
+  display: flex;
+  align-items: center;
+}
+
+.timer-icon {
+  margin-right: 8px;
+}
+
+.heading {
+  color: #333333;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.stopwatch-timer {
+  font-size: 36px;
+  color: #333333;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+@media screen and (min-width: 992px) {
+  .stopwatch-timer {
+    font-size: 55px;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.btn {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  height: 40px;
+  width: 70px;
+
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 992px) {
+  .btn {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+.btn1 {
+  background-color: #1db05f;
+  margin-right: 15px;
+}
+.btn2 {
+  background-color: #ef0d36;
+  margin-right: 15px;
+}
+.btn3 {
+  background-color: #eaa800;
+}
